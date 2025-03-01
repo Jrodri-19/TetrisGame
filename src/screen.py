@@ -163,7 +163,7 @@ class GameScreen(Screen):
         # Mostrar "Game Over"
         if self.tetris.state == "gameover":
             font1 = pygame.font.SysFont('Arial', 50, True, False)
-            game_over_text = font1.render("Game Over", True, (255, 0, 0))
+            game_over_text = font1.render("Game Over", True, (255, 255, 255))
             screen.blit(game_over_text, (100, 200))
 
         pygame.display.flip()
